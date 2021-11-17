@@ -1,0 +1,47 @@
+.mainContainer {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 257px;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+}
+.decButton {
+  height: 56px;
+  width: 60px;
+  border: 1px solid #b24242;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px 0px 0px 8px;
+}
+.incButton {
+  height: 56px;
+  width: 60px;
+  border: 0px solid #b24242;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  display: flex;
+  background-color: #b24242;
+  color: #fff;
+  border-radius: 0px 8px 8px 0px;
+}
+.cntInput {
+  width: 50px;
+  height: 52px;
+  background-color: #fbe8e8;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  border: 1px solid #b24242;
+  color: #b24242;
+  font-weight: bold;
+}
